@@ -40,10 +40,6 @@ def generate_launch_description():
         #     executable = "joint_state_publisher_node",
         # ),
         Node(
-            package = "python_pkg",
-            executable = "tf_listener_node",
-        ),
-        Node(
             package = "rviz2",
             executable = "rviz2",
             arguments=[
